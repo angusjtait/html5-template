@@ -7,22 +7,34 @@ cash*. Claude does the building; the human handles accounts, posting, payments.
 
 ---
 
-## The engines (run in parallel)
+## ⚠️ Key constraint discovered
+Gumroad has a **$100 payout threshold** + steep fees. It cannot deliver
+withdrawable cash inside our 2-week window. So the plan pivoted:
+- **Primary cash path = Engine B** (direct service, instant payment).
+- **Product storefront = Ko-fi** (0% fee, instant PayPal payout, no threshold).
+- **Gumroad = kept live for discovery only**, income treated as a later bonus.
 
-### Engine A — "Launch Kit" on Gumroad  *(scalable, semi-passive)*
-A $9 bundle of 3 modern HTML templates (built — see `launch-kit/`).
-**3 sales = goal met.** Bottleneck is traffic, not product → Claude writes all
-launch posts, human posts them.
-- Listing copy: `launch-kit/_marketing/gumroad-listing.md`
+## The engines
+
+### Engine B — One productized service  *(PRIMARY — fastest, most reliable)*
+Sell ONE one-page-website build for $30 **direct** (PayPal/bank — no platform,
+no threshold, instant). **One sale = goal met.** No warm contacts → cold/local
+route: lead with a tailored demo built from the `04-local-business` template.
+- Cold-route playbook: `launch-kit/_marketing/engine-b-cold-route.md`
+- General offer/messages: `launch-kit/_marketing/engine-b-service-offer.md`
+
+### Engine A — "Launch Kit" product  *(SECONDARY — bonus)*
+A $9 bundle of **4** modern HTML templates (built — see `launch-kit/`).
+Sold via **Ko-fi** (instant payout) + Gumroad (discovery). Claude wrote all
+launch posts; human posts them.
+- Ko-fi listing (primary): `launch-kit/_marketing/kofi-listing.md`
+- Gumroad listing (discovery): `launch-kit/_marketing/gumroad-listing.md`
 - Launch posts: `launch-kit/_marketing/launch-posts.md`
 
-### Engine B — One productized service  *(highest probability of fast cash)*
-Sell ONE one-page-website build for $30 to a warm contact / local group.
-**One sale = goal met.** Claude builds it from the Launch Kit; human makes offer.
-- Offer + ready-to-send messages: `launch-kit/_marketing/engine-b-service-offer.md`
-
-### Side-bet — ~$2 long shot  *(for fun only, NOT the plan)*
-Negative expected value, kept tiny. Flavour TBD by user (lotto vs $2 crypto).
+### Side-bet — $2 single sports bet  *(for fun only, NOT the plan)*
+Negative EV entertainment. Best return-rate option chosen (single ~2.0 odds).
+Note: literal $2 stake is easiest in person at a TAB (online min deposits ~$5–10).
+- How-to: `launch-kit/_marketing/side-bet-sports.md`
 
 ---
 
@@ -50,15 +62,18 @@ buffer. Profit comes from Claude's build work + the human's distribution.
 ---
 
 ## Status tracker
-- [x] Engine A: 3 templates built (coming-soon, portfolio, saas-landing)
+- [x] Engine A: 4 templates built (coming-soon, portfolio, saas-landing, local-business)
 - [x] Engine A: buyer READMEs + LICENSE
-- [x] Engine A: Gumroad listing copy
+- [x] Engine A: Gumroad + Ko-fi listing copy
 - [x] Engine A: launch posts written
-- [x] Engine B: service offer + outreach messages written
-- [ ] Human: Gumroad + PayPal account connected
-- [ ] Engine A: product published live (URL: __________)
-- [ ] Engine A: launch posts posted
-- [ ] Engine B: offer sent to first contacts
+- [x] Engine B: service offer + cold-route playbook written
+- [x] Side-bet: sports-bet how-to written
+- [x] Human: Gumroad account created (payout blocked by $100 threshold — deprioritised)
+- [ ] Human: Ko-fi account + PayPal connected
+- [ ] Engine A: product published on Ko-fi (URL: __________)
+- [ ] Engine A: launch posts posted (with Ko-fi link)
+- [ ] Engine B: target shortlist of 8+ local businesses
+- [ ] Engine B: tailored demo(s) built + sent
 - [ ] First sale 🎉
 - [ ] Goal hit: $20 reached
 

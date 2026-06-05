@@ -1,7 +1,12 @@
 # Gumroad listing — copy/paste
 
+> ⚠️ NOTE: Gumroad has a **$100 payout threshold**, so it won't deliver cash
+> inside our 2-week window. Use **Ko-fi** (`kofi-listing.md`) as the primary
+> store. Still worth listing here for the Discover marketplace — treat Gumroad
+> income as a long-term bonus.
+
 ## Product name
-⚡ Launch Kit — 3 Modern HTML Templates (No-Code-Friendly)
+⚡ Launch Kit — 4 Modern HTML Templates (No-Code-Friendly)
 
 ## Price
 AUD $9  (you can also tick "let customers pay more" to capture tips)

@@ -1,6 +1,6 @@
-# ⚡ Launch Kit — 3 Modern HTML Templates
+# ⚡ Launch Kit — 4 Modern HTML Templates
 
-Three clean, responsive, **zero-dependency** website templates you can launch in
+Four clean, responsive, **zero-dependency** website templates you can launch in
 minutes. No frameworks, no build step, no npm — just open the files, change the
 text and colours, and ship.
 
@@ -16,6 +16,7 @@ page *today*.
 | 1 | **Coming Soon / Waitlist** | Pre-launch pages, product waitlists, email capture |
 | 2 | **One-Page Portfolio** | Designers, developers, freelancers, creatives |
 | 3 | **SaaS / Product Landing** | App launches, products, services, startups |
+| 4 | **Local Business One-Pager** | Trades, lawn care, cleaning, cafés, salons — lead-gen with click-to-call |
 
 Each template is its own folder with `index.html`, `style.css`, `script.js`,
 and a short README.
