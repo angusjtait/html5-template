@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coming Soon — Your Brand</title>
+  <meta name="description" content="Something great is on the way. Join the waitlist to get early access.">
+
+  <!-- Open Graph / social preview -->
+  <meta property="og:title" content="Coming Soon — Your Brand">
+  <meta property="og:description" content="Something great is on the way. Join the waitlist to get early access.">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="stage">
+    <div class="aurora" aria-hidden="true"></div>
+
+    <section class="card">
+      <p class="eyebrow">🚀 Launching soon</p>
+      <h1 class="headline">Something great<br>is on the way.</h1>
+      <p class="sub">We're putting the finishing touches on it. Join the waitlist and be the first to get access — plus an early-bird discount.</p>
+
+      <!-- Countdown -->
+      <div class="countdown" id="countdown" aria-label="Time until launch">
+        <div class="unit"><span id="days">00</span><label>Days</label></div>
+        <div class="unit"><span id="hours">00</span><label>Hours</label></div>
+        <div class="unit"><span id="mins">00</span><label>Minutes</label></div>
+        <div class="unit"><span id="secs">00</span><label>Seconds</label></div>
+      </div>
+
+      <!-- Waitlist form -->
+      <form class="signup" id="signup" novalidate>
+        <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+        <button type="submit">Notify me</button>
+      </form>
+      <p class="note" id="note" role="status"></p>
+
+      <div class="social">
+        <a href="#" aria-label="X / Twitter">𝕏</a>
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="Email">✉</a>
+      </div>
+    </section>
+
+    <footer class="foot">© <span id="year"></span> Your Brand. All rights reserved.</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
